@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah Nicole's Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        body {
+            background-color: #f7f3e9;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .one {
+            background-color: #800000;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        .two {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .three {
+            width: 114px;
+            height: 114px;
+            border: 3px solid #800000;
+            margin: 0 auto 15px;
+            border-radius: 5px;
+        }
+        .four {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .five {
+            border: 3px solid #333;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            flex-basis: calc(50% - 10px);
+        }
+        .five h3 {
+            color: #800000;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #800000;
+            padding-bottom: 5px;
+        }
+        .six {
+            display: inline-block;
+            background-color: #8ecae6;
+            border: 2px solid #333;
+            padding: 5px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .seven {
+            flex-basis: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h1>My Personal Page</h1>
+    </div>
+
+    <div class="two">
+        <div class="three">My Photo</div>
+        <p>Hello i'm Hannah Nicole</p>
+        <p>A Senior Highschool student in CFSI</p>
+    </div>
+
+    <div class="four">
+        <div class="five">
+            <h3>About me</h3>
+            <p>Hi i am Hannah Nicole a student in CFSI and learning HTML and CSS</p>
+            <a href="hannah-about-me.html" class="six">View</a>
+        </div>
+
+        <div class="five">
+            <h3>My Projects</h3>
+            <p>Here are some of my own projects, click to see!</p>
+            <a href="hannah-projects.html" class="six">View</a>
+        </div>
+
+        <div class="five">
+            <h3>My Photos</h3>
+            <p>My collection of photos, made with simple CSS</p>
+            <a href="hannah-photos.html" class="six">View</a>
+        </div>
+
+        <div class="five">
+            <h3>My Blog</h3>
+            <p>My personal blog, made with HTML and CSS</p>
+            <a href="hannah-blog.html" class="six">View</a>
+        </div>
+
+        <div class="five seven">
+            <h3>My Landing Page</h3>
+            <p>A page I made for a fitness brand</p>
+            <a href="hannah-landing-page.html" class="six">View</a>
+        </div>
+    </div>
+</body>
+</html>
